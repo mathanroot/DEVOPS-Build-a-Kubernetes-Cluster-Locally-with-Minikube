@@ -52,6 +52,23 @@ Apply Two Services,
  minikube service apache-service   minikube service nginx-service 
 ```
 
+Scale the Deployment,
+```bash
+kubectl scale deployment nginx-deployment --replicas=4
+```
+Check the logs,
+```bash
+kubectl logs <pod-name>
+```
+
+Example,
+<img width="1252" height="279" alt="image" src="https://github.com/user-attachments/assets/ddfa77bb-e7cf-4f16-8228-fb67a64b1722" />
+
+
+
+
+
+
 
 
 
