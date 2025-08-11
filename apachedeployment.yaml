@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: apache2
-        image: httpd:latest   # Correct official image
+        image: httpd:latest   
         ports:
         - containerPort: 80   # Default Apache port
 
