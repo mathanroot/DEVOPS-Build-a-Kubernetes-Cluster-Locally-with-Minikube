@@ -1,5 +1,9 @@
 # DEVOPS-Build-a-Kubernetes-Cluster-Locally-with-Minikube
 
+#In this Deployment File, Define the Service which you want like apache,nginx services..
+
+#In this service file, configure the port of the services..
+
 Install Minikube in Ubuntu/Debian
 ```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
