@@ -52,7 +52,7 @@ Apply Two Services,
  minikube service apache-service   minikube service nginx-service 
 ```
 
-Scale the Deployment,
+Scale the Deployment,#you can manage the scales , input number of running Pods,
 ```bash
 kubectl scale deployment nginx-deployment --replicas=4
 ```
