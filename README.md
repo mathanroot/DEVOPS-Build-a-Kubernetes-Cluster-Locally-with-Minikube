@@ -28,5 +28,30 @@ Verify Pods
 kubectl get nodes
 ```
 
+After getting file ,Apply Services for creating resource
+```bash
+kubectl apply -f nginxdeployment.yaml
+```
+After the pods created ,
+Check pods 
+```bash
+kubectl get pods
+```
+Apply service
+```bash
+kubectl apply -f nginxservice.yaml
+```
+
+Verify Deployment
+```bash
+minikube service nginx-service
+```
+
+Apply Two Services,
+```bash
+ minikube service apache-service   minikube service nginx-service 
+```
+
+
 
 
